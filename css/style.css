@@ -1,0 +1,19 @@
+.header-superiore {
+    width: 100%;
+    background-color: black;
+    height: 25px;
+}
+
+.header-superiore span {
+    float: right;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.header-inferiore {
+    height: 70px;
+}
