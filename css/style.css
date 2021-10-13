@@ -275,6 +275,40 @@
     margin-bottom: 20px;
 }
 
+/* parte playstation plus */
+
+.playstation-plus {
+    background-color: #BEBCBB;
+}
+
+.logo-plus {
+    max-width: 100%;
+    align-self: center;
+}
+
+.logo-plus img {
+    max-width: 50%;
+    margin-top: 50px;
+}
+
+.logo-plus p {
+    margin: 20px 0;
+}
+
+.logo-plus button {
+    background-color: #D9DADC;
+    color: #3469E5;
+    margin-bottom: 50px;
+}
+
+.april-plus {
+    max-width: 100%;
+}
+
+.april-plus img {
+    max-width: 100%;
+}
+
 /* parte di media query per cambiamenti dimensioni */
 
 @media all and (max-width: 768px) {
@@ -319,6 +353,10 @@
         color: white;
         margin-bottom: 30px;
         width: 100%;
+    }
+
+    .april-plus {
+        display: none;
     }
 
 }
