@@ -41,8 +41,10 @@
     position: relative;
 }
 
-.jumbo img {
+.jumbo > img {
     width: 100%;
+    min-height: 400px;
+    object-fit: cover;
 }
 
 .jumbo-descrizione {
@@ -52,12 +54,14 @@
 }
 
 #banner-returnal {
-    max-width: 20%;
+    max-width: 25%;
+    margin-bottom: 15px;
 }
 
 .titolo-jumbo h2 {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .descrizione-returnal p {
@@ -170,7 +174,64 @@
     margin-top: 30px;
 }
 
+/* banner it takes two */
+
+.it-takes-two {
+    max-width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.it-takes-two > img {
+    max-width: 100%;
+    min-height: 600px;
+    object-fit: cover;
+}
+
+.it-takes-two-descrizione {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.it-takes-two-descrizione img {
+    max-width: 20%;
+    margin-bottom: 30px;
+}
+
+.it-takes-two-descrizione h2 {
+    color: white;
+    margin-bottom: 30px;
+    width: 35%;
+}
+
+.it-takes-two-descrizione p {
+    color: white;
+    margin-bottom: 30px;
+    width: 40%;
+}
+
+.it-takes-two-descrizione button {
+    background-color: #CD3D0F;
+}
+
+/* catalogo nuove uscite */ 
+
 @media all and (max-width: 768px) {
+
+    #banner-returnal {
+        max-width: 50%;
+        margin-bottom: 0;
+    }
+
+    .titolo-jumbo h2 {
+        margin-bottom: 0;
+    }
+
+    .descrizione-returnal p {
+        width: 100%;
+    }
+
     .accessori span {
         display: none;
     }
@@ -178,4 +239,26 @@
     .accesori-bianco {
         display: block;
     }
+
+}
+
+@media all and (max-width: 992px) {
+    
+    .it-takes-two-descrizione img {
+        max-width: 45%;
+        margin-bottom: 50px;
+    }
+    
+    .it-takes-two-descrizione h2 {
+        color: white;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+    .it-takes-two-descrizione p {
+        color: white;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
 }
