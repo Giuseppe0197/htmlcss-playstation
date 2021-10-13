@@ -309,6 +309,26 @@
     max-width: 100%;
 }
 
+/* parte playstation store */
+
+.playstation-store {
+    margin-top: 50px;
+}
+
+.playstation-store p {
+    color: #6B6B6B;
+    margin: 30px 0;
+}
+
+.sconti {
+    max-width: 100%;
+}
+
+.sconti img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
 /* parte di media query per cambiamenti dimensioni */
 
 @media all and (max-width: 768px) {
@@ -357,6 +377,10 @@
 
     .april-plus {
         display: none;
+    }
+
+    .sconti img {
+        max-width: 70%;
     }
 
 }
