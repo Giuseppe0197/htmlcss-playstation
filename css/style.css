@@ -121,3 +121,61 @@
 #tuffati {
     color: #6C6C6C;
 }
+
+/* console con immagine */
+
+.console-info {
+    margin-top: 50px;
+}
+
+.console {
+    align-self: center;
+}
+
+#maggiori-info {
+    background-color: #2D64E6;
+}
+
+.console-immagine {
+    max-width: 100%;
+}
+
+.console-immagine img {
+    max-width: 100%;
+}
+
+/* accessori */
+
+.accessori {
+    max-width: 100%;
+    text-align: center;
+}
+
+.accessori img {
+    max-width: 80%;
+}
+
+.immagine-trasparente img {
+    filter: opacity(0.5);
+}
+
+.accessori-bianco {
+    display: none;
+}
+
+#linea {
+    background-color: #2D64E6;
+    border-bottom: 2px solid #2D64E6;
+    height: 2px;
+    margin-top: 30px;
+}
+
+@media all and (max-width: 768px) {
+    .accessori span {
+        display: none;
+    }
+
+    .accesori-bianco {
+        display: block;
+    }
+}
