@@ -241,6 +241,40 @@
     margin-bottom: 30px;
 }
 
+/* PS4 */
+
+.ps4 {
+    margin-top: 30px;
+}
+
+.best-moment p {
+    margin-top: 15px;
+    color: #787878;
+}
+
+.ps4-description {
+    margin: 50px 0;
+}
+
+.immagine-ps4 {
+    max-width: 100%;
+}
+
+.immagine-ps4 img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.immagine-ps4 p {
+    color: #787878;
+    margin: 20px 0;
+}
+
+.immagine-ps4 button {
+    background-color: #2D64E6;
+    margin-bottom: 20px;
+}
+
 /* parte di media query per cambiamenti dimensioni */
 
 @media all and (max-width: 768px) {
