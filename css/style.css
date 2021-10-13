@@ -217,6 +217,32 @@
 
 /* catalogo nuove uscite */ 
 
+.uscite {
+    background-color: #1F1F1F;
+}
+
+.uscite h2, .uscite h3 {
+    color: white;
+    padding: 15px 0;
+}
+
+.nuove-uscite {
+    max-width: 100%;
+}
+
+.nuove-uscite img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.nuove-uscite span {
+    color: white;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/* parte di media query per cambiamenti dimensioni */
+
 @media all and (max-width: 768px) {
 
     #banner-returnal {
