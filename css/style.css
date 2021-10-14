@@ -15,15 +15,27 @@
     vertical-align: middle;
 }
 
-/* .header-inferiore {
+.header-inferiore {
     height: 70px;
-} */
+}
+
+.seconda-lista-nav {
+    list-style-type: none;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.seconda-lista-nav li {
+    margin-right: 10px;
+}
 
 #my-button {
     background-color: #363636;
     font-size: 12px;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
+    padding: 5px 10px;
     border: none;
 }
 
@@ -31,10 +43,25 @@
     width: 25px;
 }
 
+.form-control {
+    display: none;
+    height: 30px;
+}
+
+.dropdown-menu {
+    width: 100vw;
+}
+
+.dropdown-menu li  {
+    float: left;
+    text-align: center;
+}
+
 /* jumbo */
 
 .jumbo {
     position: relative;
+    margin-top: 95px;
 }
 
 .jumbo > img {
@@ -471,6 +498,19 @@ footer {
 }
 
 @media all and (max-width: 992px) {
+
+    .seconda-lista-nav {
+        align-items: flex-start;
+    }
+
+    #lens {
+        display: none;
+    }
+
+    .form-control {
+        display: block;
+        width: 200px;
+    }
     
     .it-takes-two-descrizione img {
         max-width: 45%;
@@ -498,5 +538,6 @@ footer {
     }
 
 }
+
 
 
