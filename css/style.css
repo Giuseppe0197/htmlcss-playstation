@@ -120,6 +120,11 @@
     border-radius: 15px;
 }
 
+.immagini-giochi:hover img {
+    position: relative;
+    top: -5px;
+}
+
 #immagine-1 {
     outline: 2px solid #3D92D9;
     border: 2px solid white;
@@ -184,6 +189,10 @@
 
 .immagine-trasparente img {
     filter: opacity(0.5);
+}
+
+.immagine-trasparente:hover img {
+    filter: opacity(1);
 }
 
 .accessori span sup {
