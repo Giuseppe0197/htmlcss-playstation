@@ -30,6 +30,14 @@
     margin-right: 10px;
 }
 
+.nav-link {
+    color: #0C0C0C !important;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
 #my-button {
     background-color: #363636;
     font-size: 12px;
@@ -37,6 +45,17 @@
     border-radius: 20px;
     padding: 5px 10px;
     border: none;
+}
+
+
+.nav-item.dropdown {
+    position: inherit;
+    top: 93%;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 90%;
+    left: -1px;
 }
 
 #lens {
@@ -50,11 +69,13 @@
 
 .dropdown-menu {
     width: 100vw;
+    min-height: 200px;
+    text-align: center;
+    background-color: white;
 }
 
 .dropdown-menu li  {
-    float: left;
-    text-align: center;
+    display: inline-block;
 }
 
 /* jumbo */
@@ -308,6 +329,7 @@
 .immagine-ps4 p {
     color: #787878;
     margin: 20px 0;
+    font-size: 25px;
 }
 
 .immagine-ps4 button {
