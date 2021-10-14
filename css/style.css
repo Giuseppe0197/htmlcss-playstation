@@ -298,7 +298,7 @@
 .logo-plus button {
     background-color: #D9DADC;
     color: #3469E5;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .april-plus {
@@ -329,6 +329,41 @@
     margin-bottom: 20px;
 }
 
+/* parte playstation now */
+
+.playstation-now {
+    background-color: #161C3B;
+}
+
+.logo-now {
+    max-width: 100%;
+    align-self: center;
+}
+
+.logo-now img {
+    max-width: 50%;
+    margin-top: 50px;
+}
+
+.logo-now p {
+    margin: 20px 0;
+    color: white;
+}
+
+.logo-now button {
+    background-color: #F5F5F5;
+    color: #272727;
+    margin-bottom: 10px;
+}
+
+.april-now {
+    max-width: 100%;
+}
+
+.april-now img {
+    max-width: 100%;
+}
+
 /* parte di media query per cambiamenti dimensioni */
 
 @media all and (max-width: 768px) {
@@ -350,8 +385,16 @@
         display: none;
     }
 
-    .accesori-bianco {
-        display: block;
+    .april-plus {
+        display: none;
+    }
+
+    .april-now {
+        display: none;
+    }
+
+    .sconti img {
+        max-width: 70%;
     }
 
 }
@@ -375,12 +418,6 @@
         width: 100%;
     }
 
-    .april-plus {
-        display: none;
-    }
-
-    .sconti img {
-        max-width: 70%;
-    }
-
 }
+
+
