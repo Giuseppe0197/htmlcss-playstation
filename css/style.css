@@ -15,24 +15,20 @@
     vertical-align: middle;
 }
 
-.header-inferiore {
+/* .header-inferiore {
     height: 70px;
+} */
+
+#my-button {
+    background-color: #363636;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
 
-.lista-nav .list-item {
-    display: inline-block;
-    margin-right: 5px;
-    font-size: 13px;
-}
-
-.lista-nav .list-item a {
-    text-decoration: none;
-    color: black;
-}
-
-.lista-nav .list-item img {
-    width: 10px;
-    margin-left: 5px;
+#lens {
+    width: 25px;
 }
 
 /* jumbo */
@@ -163,8 +159,8 @@
     filter: opacity(0.5);
 }
 
-.accessori-bianco {
-    display: none;
+.accessori span sup {
+    font-size: 8px;
 }
 
 #linea {
@@ -241,6 +237,10 @@
     margin-bottom: 30px;
 }
 
+.nuove-uscite span sup {
+    font-size: 8px;
+}
+
 /* PS4 */
 
 .ps4 {
@@ -250,6 +250,10 @@
 .best-moment p {
     margin-top: 15px;
     color: #787878;
+}
+
+.esplora h2 span {
+    font-size: 20px;
 }
 
 .ps4-description {
