@@ -160,6 +160,7 @@
 .immagini-giochi img:hover {
     position: relative;
     bottom: 10px;
+    cursor: pointer;
 }
 
 #immagine-1 {
@@ -238,6 +239,7 @@
 .immagine-trasparente:hover img {
     filter: opacity(1);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .accessori span sup {
@@ -515,6 +517,11 @@ footer {
     list-style-type: none;
 }
 
+.lista-footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .lista-footer {
     margin-top: 60px;
 }
@@ -587,7 +594,7 @@ footer {
 
     .form-control {
         display: block;
-        width: 200px;
+        width: 300px;
     }
     
     .it-takes-two-descrizione img {
