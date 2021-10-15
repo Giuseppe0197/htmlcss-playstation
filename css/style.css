@@ -84,6 +84,10 @@
     display: inline-block;
 }
 
+.menu-inferiore {
+    padding: 0 80px;
+}
+
 /* jumbo */
 
 .jumbo {
@@ -153,9 +157,9 @@
     border-radius: 15px;
 }
 
-.immagini-giochi:hover img {
+.immagini-giochi img:hover {
     position: relative;
-    top: -5px;
+    bottom: 10px;
 }
 
 #immagine-1 {
